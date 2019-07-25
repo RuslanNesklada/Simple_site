@@ -1,13 +1,360 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./res/css/style.css" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- bootstrap - end -->
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="my Simple Site to train in creating sites">
+    <meta name="keywords" content="Simple site, test, example, education">
     <title>Simple Site</title>
 </head>
+
 <body>
-    
+    <!-- SplashScreen-->
+    <div class="start_circle">
+        <canvas id="canvasID">
+            Problems with Canvas
+        </canvas>
+    </div>
+    <script src="./res/js/main.js"></script>
+
+    <!-- Main Window -->
+    <div class="grid d-none">
+        <header class="shadow">
+            <div class="header">
+                <img src="./res/img/pic.jpg" style="width: 100%" alt="Kyiv">
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+                <a class="navbar-brand" href="#">
+                    <img src="./res/img/logoENG.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Site Directory</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                About Bank
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Main Functions</a>
+                                <a class="dropdown-item" href="#">Organization Chart</a>
+                                <a class="dropdown-item" href="#">Information materials</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">News</a>
+                                <a class="dropdown-item" href="#">Press Center</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacts</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-1 my-lg-1">
+                        <input class="form-control mr-sm-1" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
+        </header>
+        <aside class="aside">
+
+            <!-- stage +1 -->
+            <div class="dropright">
+                <span class="dropdown-toggle
+                            list-group-item  
+                            list-group-item-action 
+                            list-group-item-primary" data-toggle="dropdown">
+                    National Bank <span class="badge badge-info">4</span>
+                </span>
+                <div class="dropdown-menu ">
+                    <!-- stage +1 ++1 -->
+                    <span class="   
+                                list-group-item  
+                                list-group-item-action 
+                                list-group-item-primary">
+                        Board
+                    </span>
+
+                    <!-- stage +1 ++2 -->
+                    <span class="  
+                                list-group-item  
+                                list-group-item-action 
+                                list-group-item-primary">
+                        Organization Chart
+                    </span>
+                    <!-- stage +1 ++3 -->
+                    <span class=" 
+                                list-group-item  
+                                list-group-item-action 
+                                list-group-item-primary">
+                        Main Functions
+                    </span>
+                    <!-- stage +1 ++4 -->
+                    <span class="   
+                                list-group-item  
+                                list-group-item-action 
+                                list-group-item-primary">
+                        Contacts
+                    </span>
+                </div>
+            </div>
+            <!-- stage +2 -->
+            <div class="dropright">
+                <span class="dropdown-toggle 
+                            list-group-item  
+                            list-group-item-action 
+                            list-group-item-primary" data-toggle="dropdown">
+                    Council of the National Bank <span class="badge badge-info">4</span>
+                </span>
+                <div class="dropdown-menu">
+                    <!-- stage +2 ++1 -->
+                    <span class="   
+                                list-group-item  
+                                list-group-item-action 
+                                list-group-item-primary">
+                        Powers of the Council
+                    </span>
+
+                    <!-- stage +2 ++2 -->
+                    <span class="   
+                                list-group-item  
+                                list-group-item-action 
+                                list-group-item-primary">
+                        Constitution and formation of the NBU Council
+                    </span>
+                    <!-- stage +2 ++3 -->
+                    <span class="   
+                                list-group-item  
+                                list-group-item-action 
+                                list-group-item-primary">
+                        News
+                    </span>
+                    <!-- stage +2 ++4 -->
+                    <span class="   
+                                list-group-item  
+                                list-group-item-action 
+                                list-group-item-primary">
+                        Monetary Policy Guidelines
+                    </span>
+                </div>
+            </div>
+            <!-- stage +3 -->
+            <div class="dropright">
+                <span class="dropdown-toggle  
+                            list-group-item  
+                            list-group-item-action 
+                            list-group-item-primary" data-toggle="dropdown">
+                    Monetary policy <span class="badge badge-info">4</span>
+                </span>
+                <div class="dropdown-menu">
+                    <!-- start1-1 -->
+                    <span class=" 
+                                list-group-item  
+                                list-group-item-action 
+                                list-group-item-primary">
+                        Objectives and tasks of monetary policy
+                    </span>
+                    <!-- start1-2 -->
+                    <span class="  
+                                list-group-item  
+                                list-group-item-action 
+                                list-group-item-primary">
+                        Monetary policy instruments
+                    </span>
+                    <!-- start1-3 -->
+                    <span class="  
+                                list-group-item  
+                                list-group-item-action 
+                                list-group-item-primary">
+                        Monetary policy decisions
+                    </span>
+                    <!-- start1-4 -->
+                    <span class="  
+                                list-group-item  
+                                list-group-item-action 
+                                list-group-item-primary">
+                        Inflation report
+                    </span>
+                </div>
+            </div>
+            <!-- stage +4 -->
+            <div class="dropright">
+                <span class="dropdown-toggle  
+                            list-group-item  
+                            list-group-item-action 
+                            list-group-item-primary" data-toggle="dropdown">
+                    Financial Stability <span class="badge badge-info">5</span>
+                </span>
+                <div class="dropdown-menu ">
+                    <!-- stage +4 ++1 -->
+                    <span class="   
+                                list-group-item  
+                                list-group-item-action 
+                                list-group-item-primary">
+                        National Bank’s role in ensuring financial stability
+                    </span>
+                    <!-- stage +4 ++2 -->
+                    <span class="   
+                                list-group-item  
+                                list-group-item-action 
+                                list-group-item-primary">
+                        Macroprudential Policy
+                    </span>
+                    <!-- stage +4 ++3 -->
+                    <span class="  
+                                list-group-item  
+                                list-group-item-action 
+                                list-group-item-primary">
+                        Financial Stability Report
+                    </span>
+                    <!-- stage +4 ++4 -->
+                    <span class="   
+                                list-group-item  
+                                list-group-item-action 
+                                list-group-item-primary">
+                        Financial Stability Council
+                    </span>
+                    <!-- stage +4 ++5 -->
+                    <span class="   
+                                list-group-item  
+                                list-group-item-action 
+                                list-group-item-primary">
+                        Publications
+                    </span>
+
+                </div>
+
+            </div>
+
+        </aside>
+        <main>
+            <section class="main text-justify shadow">
+                <h1 class="text-center"> Lorem ipsum dolor sit.</h1>
+                <img class="w-50 m-2 img-thumbnail float-left" src="./res/img/natsionalnyy-bank_1.jpg" alt="">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eligendi ea voluptatem non nam similique
+                laudantium quis hic suscipit quas, animi illo rerum inventore alias unde? Placeat, voluptatem.
+                Similique, nihil?
+                Nesciunt quo est aut animi quis a provident praesentium nisi. Quia quos explicabo placeat ab illum sed,
+                perspiciatis accusantium dolores, molestiae, quaerat veniam molestias itaque aperiam exercitationem
+                assumenda maiores delectus?
+                Aut, officia. Facere esse modi eligendi maxime quaerat blanditiis. Labore atque repellat officiis
+                incidunt, nihil temporibus, voluptate quia adipisci nemo odio eos quas doloribus iste corrupti!
+                Assumenda iure placeat voluptate!
+                <img class="w-40 m-2 float-right img-thumbnail" src="./res/img/images.jpg" alt="">
+                Tenetur officiis, mollitia velit odio qui tempore omnis perferendis a cum ullam iusto eaque
+                reprehenderit vel molestias minima sunt alias, reiciendis fugiat libero ipsam nostrum nulla quisquam?
+                Ipsa, vitae aliquid!
+                Quidem, consectetur! Aperiam, facilis, rem vitae veniam asperiores error consequatur ipsa alias maiores
+                quia fugit debitis enim tenetur magnam iusto dolor ad omnis ullam quas? Obcaecati nisi exercitationem
+                voluptatum totam.
+                Delectus expedita molestias neque. Nostrum repellat asperiores dolorem, tempora minus vel est adipisci
+                quos ipsa voluptate eaque velit necessitatibus cum incidunt veniam eos illo, sed veritatis nam accusamus
+                voluptatibus et?
+                Nostrum vel assumenda odit culpa deleniti voluptatibus, tempore cum atque repellendus et debitis aut
+                veniam. Veniam deserunt hic corrupti, velit minus, praesentium modi est, architecto quaerat
+                reprehenderit cupiditate ipsum soluta!
+                Quia cupiditate, fugiat reprehenderit voluptas enim voluptate, consequatur quos blanditiis corrupti
+                accusamus laborum aut sed impedit ipsum molestias aperiam, nisi provident incidunt fugit. Ut quidem
+                omnis vel placeat deleniti ducimus?
+                Itaque obcaecati, alias dolore quibusdam quidem perspiciatis, labore praesentium natus repellendus
+                ratione magnam rerum totam blanditiis quisquam voluptas veniam delectus aliquid eos qui excepturi dolor
+                iusto libero! Ipsa, impedit mollitia.
+                Dignissimos magnam, mollitia officiis repudiandae dolorem a fugiat harum enim sequi impedit perferendis
+                officia explicabo dicta modi distinctio doloremque repellat quos quo voluptates excepturi! Et
+                necessitatibus atque hic ad suscipit?
+
+            </section>
+        </main>
+        <footer>
+            <section class="footer-exch">
+                <div class="text-center rounded-top border-left border-right border-top border-primary">
+                    <span class="h6">
+                        Foreign exchange market indicators
+                    </span>
+                </div>
+                <div class="border border-primary rounded-0  overflow-auto">
+
+                    <table class="table table-hover">
+                        <caption>
+                            <span class="badge badge-success">Date: 25.02.2019</span>
+
+                        </caption>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td class="text-right px-0">100</td>
+                                <td class="text-left px-0">$</td>
+                                <td class="px-0">=</td>
+                                <td class="text-right px-0">2563.0047</td>
+                                <td class="px-0 text-left">₴‎</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td class="text-right px-0">100</td>
+                                <td class="text-left px-0">€</td>
+                                <td class="px-0">=</td>
+                                <td class="text-right px-0">2863.6452</td>
+                                <td class="px-0 text-left">₴‎</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td class="text-right px-0">10</td>
+                                <td class="text-left px-0">₽</td>
+                                <td class="px-0">=</td>
+                                <td class="text-right px-0">4.0355</td>
+                                <td class="px-0 text-left">₴‎</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+            <section class="container footer-info">
+                <div class="row align-items-center text-center" style="height: 240px">
+                    <div class="col">
+                        <span class="d-block">
+                            @All rights reserved
+                        </span>
+                        <span class="d-block">
+                            Adress:
+                        </span>
+                        <span class="d-block">
+                            9 Instytutska St., Kyiv 01601
+                        </span>
+                        <span class="d-block">
+                            Tel 0-800-505-240 (a 24-hour service), e-mail: nbu@bank.gov.ua
+                        </span>
+                    </div>
+                </div>
+            </section>
+        </footer>
+    </div>
+        
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+</script>
 </body>
+
 </html>

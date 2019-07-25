@@ -1,0 +1,91 @@
+body{
+    padding: 0    
+}
+.start_circle {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    background-color: white
+}
+canvas{
+    display: block;
+    margin: auto;
+}
+
+.grid{
+    display:grid;
+    grid-gap:5px;
+    grid-template-areas: "header" "aside ""main" "footer";
+}
+header{
+    grid-area: header;
+}
+aside.aside{
+    grid-area: aside;
+    color:red;
+}
+main{
+    grid-area: main;
+}
+footer{
+    grid-area: footer;
+}
+/* if screen is greater then 640px it will work*/
+@media   (min-width:0px){ 
+    .grid{
+        grid-template-columns:  1fr;
+        grid-template-areas:    "header"
+                                "main"
+                                "footer"
+    }
+    aside.aside{
+        display:none;
+    }
+    section.footer-exch{
+        display:none;
+    }
+    section.footer-info{
+        width:100%;
+    }
+}
+@media   (min-width:640px){
+    .grid{
+        grid-template-columns:  1fr     2fr;
+        grid-template-areas:    "header header"
+                                "aside  main"
+                                "footer footer"
+    }
+    aside.aside{
+        display:block;
+    }
+    section.footer-exch{
+        float:left;
+        display:block;
+        width:40%;
+    }
+    section.footer-info{
+        float:left;
+        width:60%;
+    }
+}
+@media   (min-width:840px){
+    .grid{
+        grid-template-columns:  1fr     3fr;
+        grid-template-areas:    "header header"
+                                "aside  main"
+                                "footer footer"
+    }
+    aside.aside{
+        display:block;
+    }
+    section.footer-exch{
+        float:left;
+        display:block;
+        width:20%;
+    }
+    section.footer-info{
+        float:left;
+        width:80%;
+    }
+}
